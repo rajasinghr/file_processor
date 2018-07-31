@@ -73,11 +73,15 @@
                             else {
                                 $("#message").html(result)
                                 $("#message").css({ "color": "red" })
+
+                                $('#downloadButton').attr("disabled", "true")
                             }
                         },
                         error: function (result) {
                             $("#message").html("Error Occured")
                             $("#message").css({ "color": "red" })
+
+                            $('#downloadButton').attr("disabled", "true")
                         }
                     });
                 });
