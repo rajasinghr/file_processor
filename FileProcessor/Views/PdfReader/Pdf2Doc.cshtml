@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "Pdf2Doc";
+}
+
+
+<div>
+    <h4><label>PDF Document to .doc/.docx Conversion</label></h4>
+</div>
+<div class="well-lg panel panel-group" style="padding:20px 0px 0px 0px">
+    <div class="panel panel-danger" style="height:40px">
+        <div class="panel-heading">
+            <label >This application uses trial version of Aspose dll. The conversion is limited only for first 3 pages.</label>
+        </div>
+    </div>
+</div>
+<div class="well-lg panel panel-group" style="padding:0px 0px 0px 0px">
+            <div class="panel panel-info" style="height:100px">
+                <div class="row panel-heading" style="padding:0px 0px 0px 20px;height:100px">
+                    <div>
+                        <h4>Choose a pdf file to upload:</h4>
+                    </div>
+                    <div class="row" style="padding:0px 0px 0px 50px">
+                        <div class="col-md-4">
+                            <input name="files" type="file" id="files" class="form-control" required />
+                        </div>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-warning active">
+                                <input type="radio" name="options" id="docOption" autocomplete="off" checked value=".doc"> .doc
+                            </label>
+                            <label class="btn btn-warning">
+                                <input type="radio" name="options" id="docxOption" autocomplete="off" value=".docx"> .docx
+                            </label>
+                        </div>
+                        <input id="convertButton" type="button" class="btn btn-success" value="Convert" />
+                        <input id="downloadButton" type="button" class="btn btn-primary" value="Download" />
+                        <label id="message" for="Message"></label>
+                        <input id="hiddenDocFile" type="hidden" />
+                    </div>    
+                </div>
+
+                @*<br />
+                    <div class="form-group row panel-body">
+                        <div class="col-xs-2">
+                            <input type="text" class="form-control" width="100" disabled value="Resume.pdf" />
+                        </div>
+                        <input type="button" class="btn btn-success" value="Convert" />
+                        <input type="button" class="btn btn-primary" value="Download" />
+
+                    </div>*@
+            </div>
+ </div>
+<div class="loadingDiv" id="loadingDiv">
+
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script type="text/javascript">
+            $(document).ready(function () {
+                $(document).ajaxStart(function () {
+                    $("#loadingDiv").show();
+                });
+                $(document).ajaxComplete(function () {
+                    $("#loadingDiv").hide();
+                });
+                $("#loadingDiv").hide();
+
+                $('#downloadButton').attr("disabled", "true")
+
+                $('#downloadButton').on('click', function () {
+                    $("#message").html("");
+                    var pdfFileName = $("#hiddenDocFile").val();
+                    window.open("/api/PdfReaderApi/Download?fileName=" + pdfFileName)
+                })
+
+                $("input[name='options']:radio").change(function () {
+                    $('#downloadButton').attr("disabled", "true")
+                })
+
+                $('#convertButton').on('click', function () {
+                    $("#message").html("");
+                    var radioValue = $("input[name='options']:checked").val();
+                    var data = new FormData();
+                    data.append("radioOption",radioValue)
+                    var files = $("#files").get(0).files;
+
+                    if (files.length > 0) {
+                        data.append("UploadedFile", files[0]);
+                    }
+                    $.ajax({
+                        type: "POST",
+                        url: "/api/PdfReaderApi/Pdf2Doc",
+                        contentType: false,
+                        processData: false,
+                        data: data,
+                        success: function (result) {
+                            if (result.includes('.doc') || result.includes('.docx')) {
+                                $("#message").html("Converted Successfully")
+                                $("#message").css({ "color": "green" })
+                                $("#hiddenDocFile").val(result)
+                                $('#downloadButton').removeAttr("disabled")
+                            }
+                            else {
+                                $("#message").html(result)
+                                $("#message").css({ "color": "red" })
+                            }
+                        },
+                        error: function (result) {
+                            $("#message").html("Error Occured")
+                            $("#message").css({ "color": "red" })
+                        }
+
+
+                    });
+                });
+            });
+        </script>

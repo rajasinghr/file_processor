@@ -1,0 +1,16 @@
+﻿
+    .loadingDiv {
+        position: absolute;
+        top: 9%;
+        right: 0px;
+        width: 100%;
+        height: 90%;
+        background-color: #666;
+        background-size: 500px 230px;
+        background-image: url('../../Images/EmbellishedAcrobaticDrafthorse.gif');
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 10000000;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }

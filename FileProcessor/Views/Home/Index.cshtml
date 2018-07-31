@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div>
+    <h4><label for="comment">Convert files online from one format into another. Please select a conversion type below:</label></h4>
+</div>
+
+
+<div style="padding:15px 7px 10px 100px;">
+    <div>
+        <a id="doc2pdf" class="grid" href='@Url.Action("Index", "Doc2Pdf" )' style="padding:15px 7px 10px 50px">
+            <img src="~/Images/docx to pdf.jpg" width="200" height="100" />
+        </a>
+    </div>
+    <div>
+        <a id="pdf2text" class="grid" href='@Url.Action("Pdf2Text", "PdfReader" )' style="padding:15px 7px 10px 60px">
+            <img src="~/Images/pdf to text.jpg" width="200" height="100" />
+        </a>
+    </div>
+    <div>
+        <a id="pdf2doc" class="grid" href='@Url.Action("Pdf2Doc", "PdfReader" )' style="padding:15px 7px 10px 60px">
+            <img src="~/Images/pdf to doc.png" width="200" height="100" />
+        </a>
+    </div>
+</div>

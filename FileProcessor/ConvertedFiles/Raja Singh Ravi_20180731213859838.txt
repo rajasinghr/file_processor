@@ -1,0 +1,214 @@
+Raja Singh Ravi 
+Tamil Nadu, India | rrajasingh33@gmail.com | +91 96298 14918 | LinkedIn 
+ 
+Dear Professor Barbara: 
+ 
+I am writing to apply for Graduate Assistant position at the University of South Florida.  
+I am joining for Business Analytics and Information Systems for the Fall 2018 semester. I 
+have a prior work experience of four years in Business Intelligence and Healthcare Service 
+Desk Analytics.  
+ 
+During my tenure at HTC Global services and CareTech Solutions, as a Reporting Analyst, I 
+am part of designing of complete BI ETL and Reporting Platform where thousands of reports 
+are dispatched to several hundreds of customers on a periodic basis. I was involved in the 
+data modeling of the transactional database for an online data metrics reporting tool, 
+writing several PL/SQL queries, and other services. Knowledgeable in working on SAP 
+Business Objects, Crystal Reports and reports distribution tools such as APOS. I worked in 
+resource forecasting application, Teleopti and developed an in-house leave management 
+application, for creating work schedules for service desk agents. Created interactive metrics 
+dashboards using Tableau software by connecting to a data warehouse and by writing 
+custom SQL queries. 
+ I was a Team Lead for Knowledge Base Document Management System project, 
+which was completed using Machine learning Classifiers and Indexing libraries in Python. 
+Also as a Data Analyst, I worked on various data management projects using Business 
+Intelligence reporting and analytics tools. Performed Data Quality tasks like analysis, profiling, 
+De-duplication and cleansing for huge customer data sets. Created many data porting ETL 
+jobs to port data between different systems using Talend and Informatica Tools.  
+ 
+I was involved in an entire agile software design and development lifecycle and interact with 
+different clients for designing business models and gathering business requirements. As, I 
+was always in a position to learn new technologies and tools, more eager to work and learn 
+in research and development projects and excited to work on new projects. If I had given 
+the opportunity, I will do my very best for the position. I truly thank you for considering my 
+application. I am always happy to hear back from you. 
+ 
+Sincerely, 
+Raja Singh Ravi 
+ 
+Raja Singh Ravi 
+Raja Singh Ravi 
+Tamil Nadu, India | rrajasingh33@gmail.com | +91 96298 14918 | LinkedIn 
+ 
+Tamil Nadu, India | rrajasingh33@gmail.com | +91 96298 14918 | LinkedIn 
+Four years of development experience in Microsoft Technologies, Business Intelligence, and 
+ 
+Data Management Solutions. Worked for CareTech Solutions on an engagement that includes 
+Dear Professor Barbara: 
+Service Desk Analytics and Reporting. Well versed in design and development of applications 
+ 
+end-to-end in Microsoft technology. 
+I am writing to apply for Graduate Assistant position at the University of South Florida.  
+ 
+I am joining for Business Analytics and Information Systems for the Fall 2018 semester. I 
+EDUCATION 
+have a prior work experience of four years in Business Intelligence and Healthcare Service 
+Bachelor’s Degree in Electronics and Communication Engineering      2010 – 2014 
+Desk Analytics.  
+ 
+ 
+WORK EXPERIENCE 
+During my tenure at HTC Global services and CareTech Solutions, as a Reporting Analyst, I 
+HTC Global Services.              Aug 2014 – JUL 2018 
+am part of designing of complete BI ETL and Reporting Platform where thousands of reports 
+a) Built domain-specific rule-based chat-bots for healthcare centers for the functionalities 
+are dispatched to several hundreds of customers on a periodic basis. I was involved in the 
+like find a doctor, doctor’s appointment booking and reports generation using Python 
+data modeling of the transactional database for an online data metrics reporting tool, 
+NLP modules. Chat-bots are designed to learn on their own based on the user 
+writing several PL/SQL queries, and other services. Knowledgeable in working on SAP 
+conversation.  
+Business Objects, Crystal Reports and reports distribution tools such as APOS. I worked in 
+resoLe uracre n f t oNat reca ur sti aln Lan g app gulag icat e pr ion o, cT ee ss lein op gt , i an Spe de de ch- ve tol- otp ee xt pr d ano icn e-sh sin oug se & l e Pyth aveo man n NLag P e m m oe dn utle s.  
+application, for creating work schedules for service desk agents. Created interactive metrics 
+b) Implemented a Knowledge Base management system for classifying and indexing user 
+dashboards using Tableau software by connecting to a data warehouse and by writing 
+manuals using Support Vector Machine classifier and Whoosh text Indexing concepts 
+custom SQL queries. 
+in Python. This application is integrated with a Ticketing system using Web API to help 
+ I was a Team Lead for Knowledge Base Document Management System project, 
+service desk agents to perform better and to save their time. 
+which was completed using Machine learning Classifiers and Indexing libraries in Python. 
+Learnt Naïve Bayes, Random Forest, Support Vector Machine classifiers; Whoosh 
+Also as a Data Analyst, I worked on various data management projects using Business 
+Indexing; REST Web API. 
+Intelligence reporting and analytics tools. Performed Data Quality tasks like analysis, profiling, 
+c) As a Reporting Analyst, responsibilities included in the designing of complete Reporting 
+De-duplication and cleansing for huge customer data sets. Created many data porting ETL 
+Platform – both offline and Real Time where thousands of reports are dispatched to 
+jobs to port data between different systems using Talend and Informatica Tools.  
+several hundreds of customers on a periodic basis. I was involved in the data modeling 
+ 
+of the transactional database, writing several Stored Procedures, and creating web 
+I was involved in an entire agile software design and development lifecycle and interact with 
+pages. Built C/C++ applications based on socket programming to integrate with the 
+different clients for designing business models and gathering business requirements. As, I 
+telephony system. I was involved in the entire software development lifecycle and was 
+was always in a position to learn new technologies and tools, more eager to work and learn 
+onsite to ensure a smooth rollout of production.  
+in research and development projects and excited to work on new projects. If I had given 
+Learnt Talend ETL, PL/SQL and .NET MVC. Had a good exposure to Very Large Databases 
+the opportunity, I will do my very best for the position. I truly thank you for considering my 
+and Service Desk operations. 
+application. I am always happy to hear back from you. 
+d) As a Full stack developer, helped to build a Self Service Portal application in CareWorks 
+ 
+(CMS) which helps hospitals for creating service tickets and other requests. Developed 
+Sincerely, 
+and maintained the Design Board of the FormBuilder tool which is the heart of the 
+Raja Singh Ravi 
+FormBuilder and Implemented JavaScript event handling and developing the WebAPI 
+ 
+Raja Singh Ravi 
+call for all the basic and advanced controls. Involved in deployment of the code into 
+Raja Singh Ravi 
+Tamil Nadu, India | rrajasingh33@gmail.com | +91 96298 14918 | LinkedIn 
+the production environment and maintained in Tortoise SVM. 
+ 
+Learnt ASP .NET, Web Forms, REST Web API and web development languages HTML5, 
+Tamil Nadu, India | rrajasingh33@gmail.com | +91 96298 14918 | LinkedIn 
+BOOTSTRAP, JQUERY;  
+Four years of development experience in Microsoft Technologies, Business Intelligence, and 
+ 
+Data Management Solutions. Worked for CareTech Solutions on an engagement that includes 
+e) As a Data Analyst, worked on 3 turnkey projects while at HTC’s BI Center of Excellence. 
+Dear Professor Barbara: 
+Service Desk Analytics and Reporting. Well versed in design and development of applications 
+Customers included SREI - a Non-Banking Equipment financing organization, Aditya 
+ 
+end-to-end in Microsoft technology. 
+Birla Financial Services Limited and Computer Age Management Services (CAMS). 
+I am writing to apply for Graduate Assistant position at the University of South Florida.  
+These projects included Data Profiling, Data Cleansing, ETL, De-duplication, Data 
+ 
+I am joining for Business Analytics and Information Systems for the Fall 2018 semester. I 
+Masking and creating an MDM solution integrating with other systems in the 
+EDUCATION 
+have a prior work experience of four years in Business Intelligence and Healthcare Service 
+organizations. Built several Web UIs. 
+Bachelor’s Degree in Electronics and Communication Engineering      2010 – 2014 
+Desk Analytics.  
+Learnt Informatica Data Integration tools, Informatica MDM and Talend DQ. Handled 
+ 
+ 
+crores of customer data and created the Golden view of Data. 
+WORK EXPERIENCE 
+During my tenure at HTC Global services and CareTech Solutions, as a Reporting Analyst, I 
+ 
+HTC Global Services.              Aug 2014 – JUL 2018 
+am part of designing of complete BI ETL and Reporting Platform where thousands of reports 
+Academic Project              Jan 2016 – April 2016 
+a) Built domain-specific rule-based chat-bots for healthcare centers for the functionalities 
+are dispatched to several hundreds of customers on a periodic basis. I was involved in the 
+Developed a weather forecasting application for classifying satellite cloud images using 
+like find a doctor, doctor’s appointment booking and reports generation using Python 
+data modeling of the transactional database for an online data metrics reporting tool, 
+pattern recognition algorithms and image processing classifiers. Introduced Multi-resolution 
+NLP modules. Chat-bots are designed to learn on their own based on the user 
+writing several PL/SQL queries, and other services. Knowledgeable in working on SAP 
+Analysis (MRA) to improve accuracy and to reduce redundancy. Compared the characteristics 
+conversation.  
+Business Objects, Crystal Reports and reports distribution tools such as APOS. I worked in 
+of Orthogonal Polynomial and Discrete Cosine Transformation algorithms. 
+resoLe uracre n f t oNat reca ur sti aln Lan g app gulag icat e pr ion o, cT ee ss lein op gt , i an Spe de de ch- ve tol- otp ee xt pr d ano icn e-sh sin oug se & l e Pyth aveo man n NLag P e m m oe dn utle s.  
+ap Lea prlin cat t iMA on, TL fo ArB,  cre Te atxtu ingr wo e e rk xtsc racti hed ou nl e& s  fo trran se sf rvi orce ma de tio sk n  ag alg eo nrtis. th Cr ms eat ae nd d i n Im teag racti e vper me ocess triics ng  
+b) Implemented a Knowledge Base management system for classifying and indexing user 
+Cl dash assb ifi oe ar r.d s using Tableau software by connecting to a data warehouse and by writing 
+manuals using Support Vector Machine classifier and Whoosh text Indexing concepts 
+custom SQL queries. 
+ 
+in Python. This application is integrated with a Ticketing system using Web API to help 
+ I was a Team Lead for Knowledge Base Document Management System project, 
+service desk agents to perform better and to save their time. 
+TECHNICAL SKILLS 
+which was completed using Machine learning Classifiers and Indexing libraries in Python. 
+Learnt Naïve Bayes, Random Forest, Support Vector Machine classifiers; Whoosh 
+ Languages and Scripts: C#, ASP .NET, MVC, Python, HTML5, CSS3, Bootstrap, 
+Also as a Data Analyst, I worked on various data management projects using Business 
+Indexing; REST Web API. 
+JavaScript, JQuery, RDF, SQL, PL/SQL, SPARQL, XML, SOAP and REST Services. 
+Intelligence reporting and analytics tools. Performed Data Quality tasks like analysis, profiling, 
+c) As a Reporting Analyst, responsibilities included in the designing of complete Reporting 
+ Databases: Microsoft SQL Server, Oracle, PostgreSQL, MySQL, Intersystem Cache. 
+De-duplication and cleansing for huge customer data sets. Created many data porting ETL 
+Platform – both offline and Real Time where thousands of reports are dispatched to 
+jobs to port data between different systems using Talend and Informatica Tools.  
+ Business Intelligence Tools: Informatica DQ, Talend DQ, Informatica Power center, 
+several hundreds of customers on a periodic basis. I was involved in the data modeling 
+Talend DI, SSIS, Informatica Address Doctor, Informatica Dynamic Data Masking, Test 
+ 
+of the transactional database, writing several Stored Procedures, and creating web 
+Data Management. 
+I was involved in an entire agile software design and development lifecycle and interact with 
+pages. Built C/C++ applications based on socket programming to integrate with the 
+ Master Data Management Tools: Informatica MDM, Informatica Identity Resolution 
+different clients for designing business models and gathering business requirements. As, I 
+telephony system. I was involved in the entire software development lifecycle and was 
+was always in a position to learn new technologies and tools, more eager to work and learn 
+ Reporting Tools: SAP Business Objects, Crystal Reports, Tableau and SSRS. 
+onsite to ensure a smooth rollout of production.  
+in research and development projects and excited to work on new projects. If I had given 
+ 
+Learnt Talend ETL, PL/SQL and .NET MVC. Had a good exposure to Very Large Databases 
+the opportunity, I will do my very best for the position. I truly thank you for considering my 
+ACCOLADES 
+and Service Desk operations. 
+application. I am always happy to hear back from you. 
+Employee of the year 2016 award in Business Intelligence and Analytics department at HTC. 
+d) As a Full stack developer, helped to build a Self Service Portal application in CareWorks 
+ 
+(CMS) which helps hospitals for creating service tickets and other requests. Developed 
+Sincerely, 
+and maintained the Design Board of the FormBuilder tool which is the heart of the 
+Raja Singh Ravi 
+FormBuilder and Implemented JavaScript event handling and developing the WebAPI 
+ 
