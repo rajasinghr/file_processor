@@ -6,11 +6,13 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Text;
 using System.IO;
-using iTextSharp.text.pdf.parser;
+using FileProcessor.Models;
 using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.parser;
 
 namespace FileProcessor.Controllers
 {
+
     public class PdfReaderApiController : ApiController
     {
 
@@ -48,9 +50,10 @@ namespace FileProcessor.Controllers
             string docPath = null;
             string uploadPath = "";
             string convertPath = "";
+            PdfReaderBLL pdfReaderBLL = null;
             uploadPath = System.Web.Hosting.HostingEnvironment.MapPath("~/UploadedFiles/");
             convertPath = System.Web.Hosting.HostingEnvironment.MapPath("~/ConvertedFiles/");
-            StringBuilder contents = null;
+            
             if (!Directory.Exists(uploadPath))
             {
                 Directory.CreateDirectory(uploadPath);
@@ -72,7 +75,7 @@ namespace FileProcessor.Controllers
                     System.Web.HttpPostedFile file = files[count];
 
                     if (file.ContentLength > 0)
-                    {
+                    { 
 
                         pdfFileName = System.IO.Path.GetFileNameWithoutExtension(file.FileName)+ "_"+DateTime.Now.ToString("yyyyMMddHHmmssfff");
                         pdfFileExtension = System.IO.Path.GetExtension(file.FileName);
@@ -92,15 +95,19 @@ namespace FileProcessor.Controllers
                         path = System.IO.Path.Combine(uploadPath, pdfFullFileName);
                         docPath = System.IO.Path.Combine(convertPath, docFileName);
                         file.SaveAs(path);
-                        var pdf = new Aspose.Pdf.Document(path);
-                        if (option == ".doc")
-                        {
-                            pdf.Save(docPath, Aspose.Pdf.SaveFormat.Doc);
-                        }
-                        else if (option == ".docx")
-                        {
-                            pdf.Save(docPath, Aspose.Pdf.SaveFormat.DocX);
-                        }
+
+                        pdfReaderBLL = new PdfReaderBLL();
+                        pdfReaderBLL.createDocument(path, docPath);
+
+                        ////var pdf = new Aspose.Pdf.Document(path);
+                        //if (option == ".doc")
+                        //{
+                        //    //pdf.Save(docPath, Aspose.Pdf.SaveFormat.Doc);
+                        //}
+                        //else if (option == ".docx")
+                        //{
+                        //    //pdf.Save(docPath, Aspose.Pdf.SaveFormat.DocX);
+                        //}
                     }
                 }
                 return docFileName;
