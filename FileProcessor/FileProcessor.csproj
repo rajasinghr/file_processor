@@ -161,6 +161,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ErrorLogging.cs" />
     <Compile Include="Models\PdfReaderBLL.cs" />
     <Compile Include="Models\TextContent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

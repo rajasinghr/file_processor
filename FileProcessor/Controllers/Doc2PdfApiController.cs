@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.IO;
 using Microsoft.Office.Interop.Word;
+using FileProcessor.Models;
 
 namespace FileProcessor.Controllers
 {
@@ -14,6 +15,7 @@ namespace FileProcessor.Controllers
         [HttpGet]
         public HttpResponseMessage Download(string fileName)
         {
+
             HttpResponseMessage httpResponseMessage = null;
             string localFilePath = System.Web.Hosting.HostingEnvironment.MapPath("~/ConvertedFiles/");
             httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK);
@@ -92,12 +94,14 @@ namespace FileProcessor.Controllers
                 }
                 return pdfFileName;
             }
-            catch(FormatException)
+            catch(FormatException e)
             {
+                ErrorLogging.SendErrorToText(e);
                 return "Invalid File format";
             }
             catch(Exception e)
             {
+                ErrorLogging.SendErrorToText(e);
                 return "Error while uploading file";
             }
         }

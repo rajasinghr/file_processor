@@ -112,12 +112,14 @@ namespace FileProcessor.Controllers
                 }
                 return docFileName;
             }
-            catch (FormatException)
+            catch (FormatException e)
             {
+                ErrorLogging.SendErrorToText(e);
                 return "Invalid File format";
             }
             catch (Exception e)
             {
+                ErrorLogging.SendErrorToText(e);
                 return "Error Occured";
             }
         }
@@ -187,12 +189,14 @@ namespace FileProcessor.Controllers
                 }
                 return textFileName;
             }
-            catch (FormatException)
+            catch (FormatException e)
             {
+                ErrorLogging.SendErrorToText(e);
                 return "Invalid File format";
             }
             catch (Exception)
             {
+                ErrorLogging.SendErrorToText(e);
                 return "Error Occured";
             }
         }
