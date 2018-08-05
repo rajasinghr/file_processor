@@ -194,7 +194,7 @@ namespace FileProcessor.Controllers
                 ErrorLogging.SendErrorToText(e);
                 return "Invalid File format";
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 ErrorLogging.SendErrorToText(e);
                 return "Error Occured";
